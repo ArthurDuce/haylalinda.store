@@ -112,13 +112,12 @@
 
             <!-- VSL -->
         
-<head>
- <link rel="preload" href="https://code.astraplayer.com.br/v1/player.min.js" as="script" />
-</head>
-
-<div data-astraplayer="7f494c33-59cb-4ba1-a63d-93ae719c2cf7"></div>
-
-<script src=https://code.astraplayer.com.br/v1/player.min.js></script>
+<div style="width:100%;max-width:60rem;margin:auto">
+ <div style="position:relative;width:100%;overflow:hidden;padding-top:56.25%;transition:0.25s;" data-astraplayer="7f494c33-59cb-4ba1-a63d-93ae719c2cf7">
+   <iframe style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%" src="https://iframe.astraplayer.com.br/7f494c33-59cb-4ba1-a63d-93ae719c2cf7" scrolling="no" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+ </div>
+</div>
+<script>window.addEventListener("message",(e)=>{if (e.origin === "https://iframe.astraplayer.com.br" && e.data.from === "astraplayer-player" && e.data.type === "height") {const content = document.querySelector('[data-astraplayer="7f494c33-59cb-4ba1-a63d-93ae719c2cf7"]');if(e.data.showing) {content.style.paddingTop="calc(56.25% + " + e.data.value + "px)";}else{content.style.paddingTop="56.25%";}}});</script>
 <i><span id="number"></span> pessoas estão assistindo a esse vídeo agora!<i>
 
 <script>
